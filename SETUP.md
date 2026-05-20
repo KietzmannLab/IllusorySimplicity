@@ -4,17 +4,20 @@
 
 Dependencies are listed in the environment.yml file in this repository and can be installed with conda.
 
-In addition, the project requires the 'ephyslib' repository with utilities for analysis of neural data: https://github.com/DanielAnthes/ephyslib
-The package can be installed in editable mode with pip -e.
+## Repository Structure
 
-## Data
+### Data
 
-All datasets should live in ./datasets
+All datasets should live in `./datasets`
 
-## Results
+### Results
 
-Results should go to ./results
+Results are saved to `./results`
 
-## Scripts
+### Scripts
 
-All analysis scripts should live in ./scripts
+All analysis scripts are located in `./scripts`
+
+## Submission
+
+Submission scripts for analyses with parameters for different conditions are located in `./submit`
