@@ -1,0 +1,22 @@
+input_dims: null # to be filled depending on data dimensionality
+proj_dim: 32 # hidden dim after linear projection of inputs
+dropout_p: 0.3 # dropout before and after GRU blocks
+patience: 500 # n epochs without validation perf. incrase before stopping
+loss_at_last_timestep: True # apply loss to last time step only, if false applied at all time steps
+device: "cuda"
+n_epochs: 2000
+batch_size: 32
+lr: 0.001
+weight_decay: 0.01
+rnn_params:
+  input_size: 32
+  hidden_size: 64
+  num_layers: 1
+  bias: True
+  batch_first: True
+  dropout: 0.0
+
+classifier_params:
+  in_features: 64
+  out_features: 100
+  bias: True

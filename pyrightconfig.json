@@ -1,0 +1,15 @@
+{
+    "pythonPath": "/Users/danthes/miniconda3/envs/amsdrift/bin/python",
+    "exclude": [
+        "results",
+        "results_hpf-1hz",
+        "results_old",
+        "results*",
+        "notebooks",
+        "notebook*",
+        "logs",
+        "submit",
+        "datasets",
+        "matlab_preprocessing"
+    ]
+}

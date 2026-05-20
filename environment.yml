@@ -1,0 +1,12 @@
+name: amsdrift
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3.12
+    - h5py
+    - matplotlib
+    - numpy
+    - seaborn
+    - scikit-learn
+    - pymatreader
